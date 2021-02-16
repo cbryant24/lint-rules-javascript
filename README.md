@@ -13,3 +13,17 @@ Create a `.eslintrc` file in the root of your project's directory (it should liv
   ]
 }
 ```
+
+Run the following command to create a prettier config file
+
+> touch .prettierrc.json
+
+Add the follow configuration to the `.prettierrc.json` file
+
+```javascript
+{
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true
+}
+```

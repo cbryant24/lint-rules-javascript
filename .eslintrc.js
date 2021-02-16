@@ -1,4 +1,5 @@
 module.exports = {
+  parser: 'babel-eslint',
   env: {
     browser: true,
     commonjs: true,
@@ -26,5 +27,7 @@ module.exports = {
     'react/prop-types': 'off',
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'import/prefer-default-export': 'warn',
+    'no-use-before-define': ['error', { variables: false }],
   },
 };
